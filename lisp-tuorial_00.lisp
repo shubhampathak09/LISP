@@ -13,5 +13,24 @@
 (print x)
 
 
+(print (+ 1 2))
+
+; function declration adding two functions :p
+
+(defun testfun (x y)
+  (+ x y))
+ 
+(print (testfun 4 5))
+
+;loops
+
+(loop for x in '(1 2 3)
+ do (print x) )
+
+
+;(loop for i in '(1 2 3)
+ ;when(> i 1)
+ ; (print i))
+
 
 
